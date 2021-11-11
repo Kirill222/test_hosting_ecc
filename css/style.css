@@ -1423,6 +1423,10 @@ aside {
     grid-template-columns: 1fr 1fr;
   }
 
+  .page-main .download_section .download_block .download_link h3 {
+    font-size: 15px;
+  }  
+
   .footer-left {
     flex-direction: column;
     align-items: center;
