@@ -43,6 +43,9 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
+ul, ol {
+  padding-left: 0;
+}
 
 /* Grouping content
    ========================================================================== */
@@ -737,8 +740,20 @@ img {
   font-weight: 700;
   font-size: 14px;
   border-radius: 20px;
-  background-color: #ff0b37;
+  background-color: #0361A9;
+  
+  /* &:hover {
+    background-color: #dc00ff;
+  } */
 }
+.call-to-action:hover {
+  background-color: #dc00ff;
+  color: #fff;
+}
+.call-to-action:first-of-type {
+  /* margin-left: 30px; */
+}
+
 
 .page-body {
   margin-top: -190px;
