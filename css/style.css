@@ -1097,6 +1097,7 @@ p > span {
 }
 
 .page-main .universities_section .uni-grid {
+  margin-top: 75px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
@@ -1495,4 +1496,12 @@ aside {
 p.schedule {
   font-size: 10px !important; 
   margin-bottom: 3px;
+}
+
+#carouselExampleIndicatorsThree {
+  margin-top: 100px;
+}
+
+.benefits-types {
+  margin-top: 75px;
 }
