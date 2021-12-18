@@ -819,9 +819,7 @@ p > span {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 20px;
-  /* margin-top: 5px;
-  margin-bottom: 10px; */
+  padding: 20px;  
 }
 
 .page-header .sandwich {
@@ -1505,3 +1503,23 @@ p.schedule {
 .benefits-types {
   margin-top: 75px;
 }
+
+.open-form {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .header-middle {
+    display: none;
+  }
+
+  .open-form.call-to-action {
+    display: block;
+    position: sticky;
+    top: 90vh;
+    left: 80vw;
+    z-index: 1000;
+  }
+
+}
+
